@@ -1,5 +1,7 @@
 
-public class Lab {
+public class Lab<decimal> {
+    private double sub;
+
     /**
      * Let's say we're building a calculator app. We now want to subtract a decimal number from another decimal number.
      *
@@ -15,6 +17,8 @@ public class Lab {
      * @return a minus b
      */
     public double sub(double a, double b){
-        return 0;
+     double sub = a-b;
+     System.out.println(a-b);
+     return sub;
     }
 }
